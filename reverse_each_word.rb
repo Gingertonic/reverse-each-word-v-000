@@ -13,5 +13,5 @@ def reverse_each_word(phrase)
   to_reverse.collect do |word|
     reversed << "#{word.reverse} "
   end
-  reversed[0...reversed.length-1]
+  # reversed[0...reversed.length-1]
 end
